@@ -1,0 +1,6 @@
+@Fibonacci.Api_HostAddress = http://localhost:5012
+
+GET {{Fibonacci.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

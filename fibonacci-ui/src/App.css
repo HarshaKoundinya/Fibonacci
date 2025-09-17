@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+code {
+  background-color: #444a57;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.fibo-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.fibo-form input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  background: #20232a;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+
+.fibo-form button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #20232a;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.fibo-form button:hover {
+  background-color: #52b8d8;
+}
+
+.fibo-form button:disabled {
+  background-color: #495d64;
+  cursor: not-allowed;
+}
+
+.result-area {
+  margin-top: 30px;
+  min-height: 80px;
+}
+
+.result-area span {
+  color: #61dafb;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size: 1rem;
+  background-color: rgba(255, 107, 107, 0.15);
+  padding: 10px;
+  border-radius: 5px;
+}

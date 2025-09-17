@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules
+/[Bb]in
+/[Oo]bj
+
+# Build results
+[Bb]uild/
+[Bb]uilds/
+[Dd]ist/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# User-specific files
+*.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
